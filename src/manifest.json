@@ -1,8 +1,8 @@
 {
-  "name": "Keep my Pinned Tab",
-  "version": "0.1.1",
+  "name": "Pinned means Pinned!",
+  "version": "1.0",
   "manifest_version": 2,
-  "description": "Confirms when you try to close a pinned tab.",
+  "description": "Prevents closing of pinned tab.",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -15,9 +15,6 @@
     "persistent": true
   },
   "permissions": [
-    "tabs",
-    "activeTab",
-    "http://*/*",
-    "https://*/*"
+      "tabs"
   ]
 }
